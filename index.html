@@ -1,56 +1,16 @@
-<style>
-    body {
-        background-color: #fafafa;
-    }
-    .header {
-        background-color: #fff;
-        line-height: 300px;
-        margin: auto;
-    }
-    .main {
-        width: 900px;
-        margin: auto;
-        background-color: #fff;
-    }
-    .block {
-        background-color: #fafafa;
-        margin: 20px;
-        padding: 20px;
-    }
-    .paragraph {
-        text-indent: 30px;
-        text-align: justify;
-    }
-    h3 {
-        text-indent: 30px;
-    }
-    ul {
-        list-style-type: upper-roman;
-        margin-left: 30px;
-    }
-    ol {
-        list-style-type: upper-latin;
-        margin-left: 30px;
-    }
-    .table1{
-        border: 1px solid black;
-        text-align: center;
-        margin: 5px;
-    }
-    .table2{
-        border: 1px solid black;
-        margin: 5px;
-    }
-</style>
-
+<!DOCTYPE html>
+<meta charset="UTF-8">
 <html>
-
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css" >
+</head>
 <body>
   <div class="main">
-    <h1 align=center class="header">Header</h1>
+    <h1 class="header">Header</h1>
     <div class="block">
       <h2>
-        <font color=red>З</font>аголовок 1</h2>
+        <font color=red>З</font>аголовок 1
+      </h2>
       <p class="paragraph">Первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый
         параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф.</p>
       <p class="paragraph">Второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй
@@ -58,14 +18,14 @@
     </div>
     <div class="block">
       <h2>Заголовок 2</h2>
-      <h3>Подзаголовок 2.1</h3>
-      <ul>
+      <h3 class="header3">Подзаголовок 2.1</h3>
+      <ul class=".myul">
         <li>что-то</li>
         <li>что-то</li>
         <li>что-то</li>
       </ul>
       <h3>Подзаголовок 2.2</h3>
-      <ol>
+      <ol class="myol">
         <li>Фрукты
           <ol>
             <li>Апельсин</li>
@@ -87,8 +47,8 @@
     </div>
     <div class="block">
       <h2>Заголовок 4</h2>
-      <h3>Таблица 1</h3>
       <table class="table1" width="800" border="1" align="center" cellpadding="4" cellspacing="0">
+        <caption>Таблица 1</caption>
         <tr>
           <td rowspan="2">Город</td>
           <td colspan="2">Население</td>
@@ -121,8 +81,8 @@
           <td>1</td>
         </tr>
       </table>
-      <h3>Таблица 2</h3>
       <table class="table2" width="800" border="1" align="center" cellpadding="4" cellspacing="0">
+        <caption>Таблица 2</caption>
         <tr>
           <td rowspan="3">Город</td>
           <td colspan="8">Население</td>
@@ -183,5 +143,4 @@
       </table>  
     </div>
 </body>
-
 </html>
