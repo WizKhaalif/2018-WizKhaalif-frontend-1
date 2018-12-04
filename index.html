@@ -1,20 +1,187 @@
+<style>
+    body {
+        background-color: #fafafa;
+    }
+    .header {
+        background-color: #fff;
+        line-height: 300px;
+        margin: auto;
+    }
+    .main {
+        width: 900px;
+        margin: auto;
+        background-color: #fff;
+    }
+    .block {
+        background-color: #fafafa;
+        margin: 20px;
+        padding: 20px;
+    }
+    .paragraph {
+        text-indent: 30px;
+        text-align: justify;
+    }
+    h3 {
+        text-indent: 30px;
+    }
+    ul {
+        list-style-type: upper-roman;
+        margin-left: 30px;
+    }
+    ol {
+        list-style-type: upper-latin;
+        margin-left: 30px;
+    }
+    .table1{
+        border: 1px solid black;
+        text-align: center;
+        margin: 5px;
+    }
+    .table2{
+        border: 1px solid black;
+        margin: 5px;
+    }
+</style>
+
 <html>
-    <style>
-        body{
-            background-color: #fafafa;
-        }
-        .header{
-            background-color: #fff;
-            width: 900px;
-            height: 300px;
-            line-height: 300px;
-            text-align: center;
-            margin: 0 auto;
-        }
-    </style>
-   <body>
-        <div class="header">
-            <h1>Header</h1>
-        </div>
-   </body>
+
+<body>
+  <div class="main">
+    <h1 align=center class="header">Header</h1>
+    <div class="block">
+      <h2>
+        <font color=red>З</font>аголовок 1</h2>
+      <p class="paragraph">Первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый
+        параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф первый параграф.</p>
+      <p class="paragraph">Второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй
+        параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф второй параграф.</p>
+    </div>
+    <div class="block">
+      <h2>Заголовок 2</h2>
+      <h3>Подзаголовок 2.1</h3>
+      <ul>
+        <li>что-то</li>
+        <li>что-то</li>
+        <li>что-то</li>
+      </ul>
+      <h3>Подзаголовок 2.2</h3>
+      <ol>
+        <li>Фрукты
+          <ol>
+            <li>Апельсин</li>
+            <li>Мандарин</li>
+          </ol>
+        </li>
+        <li>
+          Овощи
+          <ol>
+            <li>Картофель</li>
+            <li>Помидор</li>
+          </ol>
+        </li>
+      </ol>
+    </div>
+    <div class="block">
+      <h2>Заголовок 3</h2>
+      <p><img src="https://i.gifer.com/8QWq.gif" width="820" heith="400"></p>
+    </div>
+    <div class="block">
+      <h2>Заголовок 4</h2>
+      <h3>Таблица 1</h3>
+      <table class="table1" width="800" border="1" align="center" cellpadding="4" cellspacing="0">
+        <tr>
+          <td rowspan="2">Город</td>
+          <td colspan="2">Население</td>
+          <td rowspan="2">Достопримечательности</td>
+          <td rowspan="2">Количество кремлей</td>
+        </tr>
+        <tr>
+          <td>Тыс. ч.</td>
+          <td>Млн ч.</td>
+        </tr>
+        <tr>
+          <td>Калуга</td>
+          <td>340,851</td>
+          <td>0,340851</td>
+          <td>Немнога</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>Москва</td>
+          <td>12506,468</td>
+          <td>12,506468</td>
+          <td>Многа</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Тула</td>
+          <td>482,873</td>
+          <td>0,482873</td>
+          <td>Средне</td>
+          <td>1</td>
+        </tr>
+      </table>
+      <h3>Таблица 2</h3>
+      <table class="table2" width="800" border="1" align="center" cellpadding="4" cellspacing="0">
+        <tr>
+          <td rowspan="3">Город</td>
+          <td colspan="8">Население</td>
+          <td rowspan="3">Достопримечательности</td>
+        </tr>
+        <tr>
+          <td colspan="2">2015</td>
+          <td colspan="2">2016</td>
+          <td colspan="2">2017</td>
+          <td colspan="2">2018</td>
+        </tr>
+        <tr>
+          <td>Тыс. ч.</td>
+          <td>Млн ч.</td>
+          <td>Тыс. ч.</td>
+          <td>Млн ч.</td>
+          <td>Тыс. ч.</td>
+          <td>Млн ч.</td>
+          <td>Тыс. ч.</td>
+          <td>Млн ч.</td>
+        </tr>
+        <tr>
+          <td>Калуга</td>
+          <td>228</td>
+          <td>0,228</td>
+          <td>1337</td>
+          <td>1,337</td>
+          <td>1488</td>
+          <td>1,488</td>
+          <td>340,851</td>
+          <td>0,340851</td>
+          <td>Немнога</td>
+        </tr>
+        <tr>
+          <td>Москва</td>
+          <td>228</td>
+          <td>0,228</td>
+          <td>1337</td>
+          <td>1,337</td>
+          <td>1488</td>
+          <td>1,488</td>
+          <td>12506,468</td>
+          <td>12,506468</td>
+          <td>Многа</td>
+        </tr>
+        <tr>
+          <td>Тула</td>
+          <td>228</td>
+          <td>0,228</td>
+          <td>1337</td>
+          <td>1,337</td>
+          <td>1488</td>
+          <td>1,488</td>
+          <td>482,873</td>
+          <td>0,482873</td>
+          <td>Средне</td>
+        </tr>
+      </table>  
+    </div>
+</body>
+
 </html>
